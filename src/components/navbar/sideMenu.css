@@ -1,0 +1,41 @@
+/* SideMenu.css */
+.side-menu {
+    position: fixed;
+    width: 100%;
+    top: -100%; /* Start off screen */
+    /* height: 9rem; */
+    background-color: lightgray;
+    transition: top 0.3s ease;
+  }
+
+  .side-menu.open {
+    top: 0; /* Slide in from the top */
+  }
+  
+  
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .menu-content {
+    padding: 20px;
+    color: black;
+  }
+  
+  .menu-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-content li {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,41 @@
+/* projects.css */
+.projects-container {
+    max-width: 800px;
+    background-color: red;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .projects-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .projects-content {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .projects-container {
+      padding: 10px;
+    }
+    
+    .projects-title {
+      font-size: 1.2rem;
+    }
+    
+    .projects-content {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .projects-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
